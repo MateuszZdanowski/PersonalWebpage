@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    height: 100%;
+    overscroll-behavior: none;
+    color: #40514E;
+    }
+
+h1 {
+    font-size: 5.625rem;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    line-height: 2;
+    }
+
+.hi-text {
+    position:relative;
+    top: 3rem;
+    }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #66BFBF;
+    font-weight: normal;
+    }
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    }
+
+p {
+    line-height: 2;
+    }
+
+.top-container {
+    background: rgb(25,97,57);
+    background: linear-gradient(90deg, rgba(25,97,57,1) 0%, rgba(58,143,2,1) 33%, rgba(23,168,80,1) 66%, rgba(0,184,132,1) 100%);
+    position:relative;
+    padding-top: 1.25rem;
+    }
+
+.middle-container {
+    margin: 3rem 0;
+    }
+
+.bottom-container {
+    margin-top: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0.5rem;
+    background: rgb(25,97,57);
+    background: linear-gradient(90deg, rgba(25,97,57,1) 0%, rgba(58,143,2,1) 33%, rgba(23,168,80,1) 66%, rgba(0,184,132,1) 100%);
+    }
+
+.top-cloud {
+    position: relative;
+    top: 3.125rem;
+    left: 22.75rem;
+    width: 15rem;
+    height: 5rem;
+    }
+
+.bottom-cloud {
+    position: relative;
+    bottom: 18.75rem;
+    right: 5.75rem;
+    width: 12rem;
+    height 4.5rem;
+    }
+
+.mountain-pic {
+    position: relative;
+    right: 5rem;
+    top: 0.25rem;
+    }
+
+.my-photo {
+    border-radius: 50%;
+    width: 20rem;
+    height: 25rem;
+    }
+
+.it-skills-pic {
+    border-radius: 50%;
+    width: 13rem;
+    float: left;
+    margin-right: 1.875rem;
+    }
+
+.creative-skills-pic {
+    border-radius: 50%;
+    width: 13rem;
+    float: right;
+    margin-left: 1.875rem;
+    }
+
+.other-skills-pic {
+    border-radius: 50%;
+    width: 13rem;
+    float: left;
+    margin-right: 1.875rem;
+    }
+
+.footer-link {
+    color: white;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.15rem;
+    text-decoration: none;
+    font-weight: 550;
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.footer-link:hover {
+    color: #FFD700;
+    }
+
+.btn {
+    position: relative;
+    background: #38afff;
+    background-image: -webkit-linear-gradient(top, #38afff, #0075bd);
+    background-image: -moz-linear-gradient(top, #38afff, #0075bd);
+    background-image: -ms-linear-gradient(top, #38afff, #0075bd);
+    background-image: -o-linear-gradient(top, #38afff, #0075bd);
+    background-image: linear-gradient(to bottom, #38afff, #0075bd);
+    -webkit-border-radius: 16;
+    -moz-border-radius: 16;
+    border-radius: 1rem;
+    -webkit-box-shadow: 0rem 0.063rem 0.25rem #000000;
+    -moz-box-shadow: 0rem 0.063rem 0.25rem #000000;
+    box-shadow: 0rem 0.063rem 0.25rem #000000;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 2.2rem;
+    padding: 0.625rem 1rem 0.625rem 1rem;
+    text-decoration: none;
+    top: 1.875rem;
+    }
+
+.btn:hover {
+    background: #00c777;
+    background-image: -webkit-linear-gradient(top, #00c777, #02ab0d);
+    background-image: -moz-linear-gradient(top, #00c777, #02ab0d);
+    background-image: -ms-linear-gradient(top, #00c777, #02ab0d);
+    background-image: -o-linear-gradient(top, #00c777, #02ab0d);
+    background-image: linear-gradient(to bottom, #00c777, #02ab0d);
+    text-decoration: none;
+    }
+
+.skill-row {
+    width: 50rem;
+    margin: 6rem auto 8rem auto;
+    text-align: left;
+    }
+
+hr {
+    width: 3rem;
+    border-style: dotted none none none;
+    border-color: #66BFBF;
+    border-width: 0.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+    }
+
+.copyright {
+    padding: 1.1rem 0 0;
+    color: #EAF6F6;
+    font-size: 0.8rem;
+    }
+
+.welcome-text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    }
+
+.student-text {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+}
+
+.main-hello {
+    padding-top: 1.5rem;
+    }
+
+.it-skills-description {
+    line-height: 2.5;
+    }
+
+.creative-skills-description {
+    line-height: 2.5;
+    }
+
+.other-skills-description {
+    line-height: 2.5;
+    }
+
+.pro {
+    text-decoration: underline;
+    }
